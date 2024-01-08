@@ -1,13 +1,12 @@
-# Event-Registration-Service
+# Event Registration Service
 
-
-Este repositório contém um microserviço dedicado ao cadastro de eventos. Ele se integra perfeitamente com o Email-Service-Desafio_Uber](https://github.com/WesleyS08/Email-Service-Desafio_Uber), permitindo o envio automático de e-mails para os participantes registrados.
+Este repositório contém um microserviço dedicado ao cadastro de eventos. Ele se integra perfeitamente com o [Email Service Desafio Uber](https://github.com/WesleyS08/Email-Service-Desafio_Uber), permitindo o envio automático de e-mails para os participantes registrados.
 
 ## Principais Recursos
 
-- **Cadastro de Eventos:** Fornece uma API para cadastrar novos eventos, incluindo detalhes como título, data, e descrição.
+- **Cadastro de Eventos:** Fornece uma API para cadastrar novos eventos, incluindo detalhes como título, data e descrição.
 
-- **Integração com E-mail:** Comunica-se com o serviço de email, que nesse exemplo é do Amazon para enviar e-mails de confirmação e lembretes aos participantes registrados.
+- **Integração com E-mail:** Comunica-se com o serviço de e-mail (por exemplo, Amazon SES) para enviar e-mails de confirmação e lembretes aos participantes registrados.
 
 - **Configuração Flexível:** Personalize as configurações do serviço, incluindo a mensagem de confirmação e lembrete, através do arquivo de configuração.
 
